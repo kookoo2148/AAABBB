@@ -1,9 +1,9 @@
-# The manifest for the "abpipeline" pipeline.
+# The manifest for the "abtestpipeline" pipeline.
 # This YAML file defines your pipeline: the source repository it tracks and the order of the environments to deploy to.
 # For more info: https://aws.github.io/copilot-cli/docs/manifest/pipeline/
 
 # The name of the pipeline.
-name: abpipeline
+name: abtestpipeline
 
 # The version of the schema used in this template.
 version: 1
@@ -16,7 +16,7 @@ source:
   # Additional properties that further specify the location of the artifacts.
   properties:
     branch: main
-    repository: https://github.com/kookoo2148/AB33
+    repository: https://github.com/kookoo2148/AAABBB
     # Optional: specify the name of an existing CodeStar Connections connection.
     # connection_name: a-connection
 
